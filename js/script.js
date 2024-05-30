@@ -27,7 +27,12 @@ createApp({
         ]
     }  
   },
-  
+  methods :{
+      toggleDone(item) {
+        item.done = !item.done;        
+      }
+
+  }  
 }).mount('#app')
 
 

@@ -14,7 +14,7 @@
     <div id="app">
         <div class="to-do-list" v-for="item in toDoList" >
             <ul>
-                <li>{{ item.text }}</li>
+                <li @click="toggleDone(item)" :class= "{done : item.done}" >{{ item.text }}</li>
             </ul>
         </div>
     </div>
