@@ -15,8 +15,8 @@
         <div class="to-do-list" >
             <h1>To do List </h1>
             <ul v-for="item in toDoList" >
-                <li @click="toggleDone(item)" :class= "{done : item.done}" >{{ item.text }}</li>
-                <i class="fa-regular fa-trash-can"></i>
+                <li @click="toggleDone(item)" :class= "{done : item.done}">{{ item.text }}</li>
+                <i class="fa-regular fa-trash-can"  @click="removeTodo(index)"></i>
             </ul>
         </div>
     </div>

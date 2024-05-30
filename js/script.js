@@ -30,8 +30,11 @@ createApp({
   methods :{
       toggleDone(item) {
         item.done = !item.done;        
-      }
+      },
 
+      removeTodo(taskIndex){
+        this.toDoList.splice(taskIndex, 1);
+      }
   }  
 }).mount('#app')
 
