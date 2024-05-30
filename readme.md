@@ -2,6 +2,10 @@ Rifare l'esercizio della to do list visto insieme a lezione.
 Ogni oggetto dovra' avere almeno due proprietà:
 text, una stringa che indica il testo del todo
 done, un booleano (true/false) che indica se il todo è stato fatto oppure no
+
+-creare un array di oggetti.
+
+
 MILESTONE 1
 Stampare all'interno di una lista HTML un item per ogni todo.
 Se la proprietà done è uguale a true, visualizzare il testo del todo sbarrato.
