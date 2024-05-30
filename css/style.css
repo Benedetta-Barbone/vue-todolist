@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
 .done{
     text-decoration: line-through;
 }
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+
+.to-do-list{    
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(148, 115, 180);
+    padding: 0.7rem 1rem;
+    list-style-type: circle;
+}
+
